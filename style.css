@@ -144,3 +144,9 @@ ul .speech.active {
   opacity: 0.7;
   pointer-events: none;
 }
+
+@media only screen and (max-width: 380px) {
+  .wrapper {
+    width: 370px;
+  }
+}
